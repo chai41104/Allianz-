@@ -1,0 +1,437 @@
+[
+  {
+    "id": 0,
+    "color": "default",
+    "isHidden": false,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Welcome",
+      "text": "Hi Bob, let say begin to start.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Hi Bob.",
+      "prompt": "let say begin to start."
+    },
+    "options": [
+      {
+        "sceneId": 2,
+        "utterances": [
+          "begin"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Recent Claim",
+      "text": "A claim about  Maersk cargo hitting London bridge. Would you like to know about its status?",
+      "prompt": "Say yes or no",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "A claim about  Maersk cargo hitting London bridge. <audio src=\"https://s3.amazonaws.com/tempalexaskill/andydemo.mp3\" /> Would you like to know about its status?.",
+      "prompt": "Say yes or no"
+    },
+    "options": [
+      {
+        "sceneId": 4,
+        "utterances": [
+          "yes"
+        ]
+      },
+      {
+        "sceneId": 7,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Start",
+      "text": "Hi Bob,  How can I help you today ?. You can say something like  Existing policy...   ...News alerts...  New Insurance policy... Making claims ...Insurance Terminology",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Hi Bob,  How can I help you today ?.",
+      "prompt": "You can say something like  Existing policy...   ...News alerts...  New Insurance policy... Making claims ...Insurance Terminology"
+    },
+    "options": [
+      {
+        "sceneId": 3,
+        "utterances": [
+          "existing policy"
+        ]
+      },
+      {
+        "sceneId": 12,
+        "utterances": [
+          "making claims"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Existing policy",
+      "text": "Ok. Existing Policy. What would you like to know about existing policy? You can say something like…recent claim, number of claims, status of claim, policy renewal date.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Ok. Existing Policy. What would you like to know about existing policy?",
+      "prompt": "You can say something like…recent claim, number of claims, status of claim, policy renewal date."
+    },
+    "options": [
+      {
+        "sceneId": 1,
+        "utterances": [
+          "recent claim"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Checking status",
+      "text": "Checking the status now...\nStatus of the claim is pending...Do you want to know why?",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "<s>Checking the status now...</s>\n<s>Status of the claim is pending.</s>",
+      "prompt": "Do you want to know why?"
+    },
+    "options": [
+      {
+        "sceneId": 5,
+        "utterances": [
+          "yes"
+        ]
+      },
+      {
+        "sceneId": 8,
+        "utterances": [
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Reason",
+      "text": "Waiting for approval. Would you like to contact account manager Andy about this decision?",
+      "prompt": "Say Yes or No",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Waiting for approval. Would you like to contact account manager Andy about this decision?",
+      "prompt": "Say Yes or No"
+    },
+    "options": [
+      {
+        "sceneId": 6,
+        "utterances": [
+          "yes"
+        ]
+      },
+      {
+        "sceneId": 9,
+        "utterances": [
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Contact",
+      "text": "Ok. How would like to contact Andy?",
+      "prompt": "Say something like Email, Text Message, Call",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Ok. How would like to contact Andy?",
+      "prompt": "Say something like Call, Email, Text Message."
+    },
+    "options": [
+      {
+        "sceneId": 10,
+        "utterances": [
+          "call"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "End",
+      "text": "Thank you",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thank you",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 8,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "End",
+      "text": "Thank you",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thank you",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 9,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "End",
+      "text": "Thank you",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thank you",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 10,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "Call",
+      "text": "Calling now...........................................................................",
+      "prompt": "Would you like to send an email?",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Calling now. <audio src=\"https://s3.amazonaws.com/tempalexaskill/silence.mp3\" />",
+      "prompt": "Would you like to send an email?"
+    },
+    "options": [
+      {
+        "sceneId": 11,
+        "utterances": [
+          "sure"
+        ]
+      },
+      {
+        "sceneId": 15,
+        "utterances": [
+          "no"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "send",
+      "text": "Sending email and SMS now…...Email and SMS have been sent.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Sending email and SMS now…...Email and SMS have been sent.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 12,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "making claims",
+      "text": "Ok. Making Claims. What type of claim would you like to do today?",
+      "prompt": "Say something like Manufacturing, Engineering, Indemnity",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Ok. Making Claims. What type of claim would you like to do today?",
+      "prompt": "Say something like Manufacturing, Engineering, Indemnity"
+    },
+    "options": [
+      {
+        "sceneId": 13,
+        "utterances": [
+          "manufacturing"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "manufacturing",
+      "text": "Ok Manufacturing. Would you like me to email and SMS you Manufacturing claim form?",
+      "prompt": "Say something like yes or no.",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Ok Manufacturing. Would you like me to email and SMS you Manufacturing claim form?",
+      "prompt": "Say something like yes or no."
+    },
+    "options": [
+      {
+        "sceneId": 14,
+        "utterances": [
+          "yes"
+        ]
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "sendEmailAndSMS",
+      "text": "Sending an email and SMS now…...Email has been sent.",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Sending an email and SMS now…...Email has been sent.",
+      "prompt": ""
+    },
+    "options": []
+  },
+  {
+    "id": 15,
+    "color": "default",
+    "isHidden": false,
+    "generateOptions": true,
+    "readPreviousOptions": false,
+    "card": {
+      "title": "end",
+      "text": "Thank you",
+      "prompt": "",
+      "image": {
+        "largeImageUrl": null,
+        "smallImageUrl": null
+      }
+    },
+    "voice": {
+      "intro": "Thank you. end of service. Goodbye Bob.",
+      "prompt": ""
+    },
+    "options": []
+  }
+]
